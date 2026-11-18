@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Milk bottle, leaf and cool drink icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b7a58"/><stop offset="1" stop-color="#064b39"/></linearGradient>
+    <linearGradient id="milk" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dff6ee"/></linearGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd36d"/><stop offset="1" stop-color="#ff9f43"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#003b2b" flood-opacity=".22"/></filter>
+  </defs>
+  <circle cx="120" cy="120" r="116" fill="#e9f8f0"/>
+  <circle cx="120" cy="120" r="101" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="88" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
+  <!-- milk bottle -->
+  <g filter="url(#shadow)" stroke-linejoin="round">
+    <path d="M76 69h28v17l10 13v67c0 8-6 14-14 14H80c-8 0-14-6-14-14V99l10-13z" fill="url(#milk)" stroke="#d7f2e8" stroke-width="3"/>
+    <rect x="76" y="58" width="28" height="16" rx="4" fill="#f7fffb" stroke="#d7f2e8" stroke-width="3"/>
+    <path d="M68 119h46v34c0 7-6 13-13 13H81c-7 0-13-6-13-13z" fill="#a8dcf4"/>
+    <path d="M68 127c12-7 31 7 46 0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M78 104h24" stroke="#c0e9db" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- chilled drink cup -->
+  <g filter="url(#shadow)" stroke-linejoin="round">
+    <path d="M133 100h52l-6 67c-.5 6-5 10-11 10h-18c-6 0-10-4-11-10z" fill="#fff" stroke="#d6f2e8" stroke-width="3"/>
+    <path d="M136 119h45l-4 46c-.4 4-3 7-7 7h-18c-4 0-7-3-7-7z" fill="url(#drink)"/>
+    <path d="M145 92l14 16" stroke="#fffbeb" stroke-width="8" stroke-linecap="round"/>
+    <path d="M153 92l14 16" stroke="#9de1ca" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146 132l6 8m13-11 6 8m-20 16 6 7" stroke="#fff4d6" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- fresh leaf and sparkle -->
+  <path d="M113 77c2-22 21-34 43-31-2 22-17 37-43 31z" fill="#a9e58e" stroke="#e5ffd7" stroke-width="2"/>
+  <path d="M113 77l27-23" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M56 91l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#ffe28a"/>
+  <path d="M190 72l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#ffe28a"/>
+  <circle cx="188" cy="191" r="5" fill="#b5e9a1"/><circle cx="58" cy="179" r="4" fill="#b5e9a1"/>
+</svg>
